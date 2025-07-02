@@ -23,13 +23,13 @@
 
 / {
     chosen {
-       zmk,physical-layout =
+        zmk,physical-layout =
 #ifdef TBLE_DUAL_2U
-                       &layout_ortho_4x12_2x2u;
+            &layout_ortho_4x12_2x2u;
 #elif defined(TBLE_MIT)
-                       &layout_ortho_4x12_1x2u;
+            &layout_ortho_4x12_1x2u;
 #else
-                       &layout_ortho_4x12_all1u;
+            &layout_ortho_4x12_all1u;
 #endif
     };
 
@@ -50,7 +50,7 @@
             label = "Nums";
             bindings = <
  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans     &trans
- &kp DQUO   &kp MINUS  &kp GRAVE  &kp BSLH   &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+ &kp DQT    &kp MINUS  &kp GRAVE  &kp BSLH   &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
  &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
  &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
             >;
@@ -59,8 +59,8 @@
         sym_layer {
             label = "Syms";
             bindings = <
- &kp EXCL   &kp AT     &kp HASH   &kp DLR   &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &trans     &trans
- &kp DQT   &kp LS(MINUS) &kp LS(GRAVE) &kp LS(BSLH)   &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+ &kp EXCL   &kp AT     &kp HASH   &kp DLR     &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &trans     &trans
+ &kp DQT    &kp LS(MINUS) &kp LS(GRAVE) &kp LS(BSLH) &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
  &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
  &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
             >;
