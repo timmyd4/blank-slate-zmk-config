@@ -60,7 +60,7 @@
             label = "Syms";
             bindings = <
                 &kp EXCL    &kp AT     &kp HASH    &kp DLR     &kp PRCNT   &kp CARET   &kp AMPS    &kp STAR &kp LPAR     &kp RPAR     &trans      &trans
-                &kp DQT     &kp LS(MINUS) &kp TILDE  &kp PIPE    &trans      &trans      &trans      &trans       &trans       &trans       &trans      &trans
+                &kp DQT     &sk MINUS &kp TILDE  &kp PIPE    &trans      &trans      &trans      &trans       &trans       &trans       &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans      &trans
             >;
