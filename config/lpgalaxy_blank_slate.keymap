@@ -39,30 +39,30 @@
         base_layer {
             label = "Base";
             bindings = <
- &kp ESC    &kp Q      &kp W      &kp E       &kp R      &kp T      &kp Y      &kp U      &kp I     &kp O     &kp P     &kp BKSP
- &kp TAB    &kp A      &kp S      &kp D       &kp F      &kp G      &kp H      &kp J      &kp K     &kp L     &kp SEMI  &kp SLASH
- &kp LSHFT  &kp Z      &kp X      &kp C       &kp V      &kp B      &kp N      &kp M      &kp COMMA &kp DOT   &kp UP    &kp RET
- &kp LCTRL  &kp CAPS   &kp LGUI   &kp LALT    &mo NUM_L  &kp SPACE  &mo SYM_L  &kp LBKT   &kp RBKT  &kp LEFT  &kp DOWN  &kp RIGHT
+                &kp ESC    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+                &kp TAB    &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp SLASH
+                &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp COMMA  &kp DOT    &kp UP     &kp RET
+                &kp LCTRL  &kp CAPS   &kp LGUI   &kp LALT   &mo NUM_L  &kp SPACE  &mo SYM_L  &kp LBKT   &kp RBKT   &kp LEFT   &kp DOWN   &kp RIGHT
             >;
         };
 
         num_layer {
             label = "Nums";
             bindings = <
- &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans     &trans
- &kp DQT    &kp MINUS  &kp GRAVE  &kp BSLH   &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
- &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
- &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans     &trans
+                &kp DQT    &kp MINUS  &kp GRAVE  &kp BSLH   &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
             >;
         };
 
         sym_layer {
             label = "Syms";
             bindings = <
- &kp EXCL   &kp AT     &kp HASH   &kp DLR     &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &trans     &trans
- &kp DQT    &kp LS(MINUS) &kp LS(GRAVE) &kp LS(BSLH) &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
- &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
- &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                &kp EXCL   &kp AT     &kp HASH   &kp DLR    &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR   &trans     &trans
+                &kp DQT    &kp LS(MINUS) &kp LS(GRAVE) &kp LS(BSLH) &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
+                &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans     &trans
             >;
         };
     };
